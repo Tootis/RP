@@ -1,0 +1,52 @@
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.characterSheet {
+    display: flex;
+}
+.characterSheet img {
+    height: 25em;
+    padding-right: 5%;
+}
+
+.inventory {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+.inventoryOption{
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+
+.skillAndStat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3%;
+}
+.skillAndStatSection{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
